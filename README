@@ -1,0 +1,5 @@
+dotfiles
+
+vscodium
+copy-item vscodium\settings.json "$env:appdata\vscodium\user\settings.json"
+get-content vscodium\extensions.txt | foreach-object { codium --install-extension $_ }
