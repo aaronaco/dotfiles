@@ -1,19 +1,18 @@
 {
     "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
     "workbench.browser.showInTitleBar": false,
     "workbench.layoutControl.enabled": false,
     "workbench.navigationControl.enabled": false,
     "window.commandCenter": false,
-    "window.menuBarVisibility": "toggle",
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.location": "hidden",
-    "workbench.iconTheme": null,
-    "workbench.editor.showTabs": "none",
-    "workbench.tree.enableStickyScroll": false,
-    "editor.stickyScroll.enabled": false,
+    "window.menuBarVisibility": "compact",
     "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
-    "workbench.editor.editorActionsLocation": "hidden",
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.iconTheme": null,
     "files.autoSave": "afterDelay",
     "editor.lineNumbers": "off",
     "editor.glyphMargin": false,
@@ -25,6 +24,7 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.stickyScroll.enabled": false,
-    "workbench.colorTheme": "Sapphire"
+    "workbench.colorTheme": "Sapphire",
+    "workbench.editor.showTabs": "none",
+    "breadcrumbs.enabled": false
 }
